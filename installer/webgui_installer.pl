@@ -102,7 +102,7 @@ my $perl;
 
 my $root;
 
-BEGIN { $root = $> == 0; $root or die "Non-root installations aren't supported.  Sorry.  Please look for the source install instructions or run as roon."; };
+BEGIN { $root = $> == 0; $root or die "Non-root installations aren't supported.  Sorry.  Please look for the source install instructions or run as root."; };
 
 use Cwd;
 
